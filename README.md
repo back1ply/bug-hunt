@@ -16,11 +16,22 @@ Each agent runs in a **completely isolated context** — they can't see each oth
 
 ## Install
 
+### Plugin marketplace (recommended)
+
+```
+/plugin marketplace add danpeg/bug-hunt
+/plugin install bug-hunt@bug-hunt
+```
+
+Skill is namespaced as `/bug-hunt:bug-hunt`. Managed automatically — updates via `/plugin marketplace update bug-hunt`.
+
+### Standalone (legacy)
+
 ```bash
 git clone https://github.com/danpeg/bug-hunt.git ~/.claude/skills/bug-hunt
 ```
 
-Claude Code auto-discovers skills in `~/.claude/skills/`.
+Claude Code auto-discovers skills in `~/.claude/skills/`. Skill available as `/bug-hunt`.
 
 ## Usage
 
@@ -36,12 +47,24 @@ Claude Code auto-discovers skills in `~/.claude/skills/`.
 
 ## Update
 
+Plugin marketplace:
+```
+/plugin marketplace update bug-hunt
+```
+
+Standalone:
 ```bash
 cd ~/.claude/skills/bug-hunt && git pull
 ```
 
 ## Uninstall
 
+Plugin marketplace:
+```
+/plugin uninstall bug-hunt@bug-hunt
+```
+
+Standalone:
 ```bash
 rm -rf ~/.claude/skills/bug-hunt
 ```

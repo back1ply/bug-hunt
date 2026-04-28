@@ -1,0 +1,8 @@
+{
+  "name": "bug-hunt",
+  "description": "Adversarial bug finding using 3 isolated agents (Hunter, Skeptic, Referee) to find and verify real bugs with high fidelity.",
+  "version": "1.0.0",
+  "author": {
+    "name": "danpeg"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "bug-hunt",
+  "owner": {
+    "name": "danpeg"
+  },
+  "description": "Adversarial bug hunting skill for Claude Code",
+  "plugins": [
+    {
+      "name": "bug-hunt",
+      "source": {
+        "source": "github",
+        "repo": "danpeg/bug-hunt"
+      },
+      "description": "Adversarial bug finding using 3 isolated agents (Hunter, Skeptic, Referee) to find and verify real bugs with high fidelity.",
+      "homepage": "https://github.com/danpeg/bug-hunt",
+      "license": "MIT",
+      "keywords": ["bug-hunting", "code-review", "adversarial", "agents"]
+    }
+  ]
+}
