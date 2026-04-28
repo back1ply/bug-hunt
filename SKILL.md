@@ -45,9 +45,9 @@ Follow the rules in the **Target** section above to determine the scan target. I
 ### Step 2: Read the prompt files
 
 Read these files using the skill directory variable:
-- ${CLAUDE_SKILL_DIR}/prompts/hunter.md
-- ${CLAUDE_SKILL_DIR}/prompts/skeptic.md
-- ${CLAUDE_SKILL_DIR}/prompts/referee.md
+- ${CLAUDE_SKILL_DIR}/skills/bug-hunt/prompts/hunter.md
+- ${CLAUDE_SKILL_DIR}/skills/bug-hunt/prompts/skeptic.md
+- ${CLAUDE_SKILL_DIR}/skills/bug-hunt/prompts/referee.md
 
 ### Step 3: Run the Hunter Agent
 

@@ -25,7 +25,13 @@ Each agent runs in a **completely isolated context** — they can't see each oth
 
 Skill is namespaced as `/bug-hunt:bug-hunt`. Managed automatically — updates via `/plugin marketplace update bug-hunt`.
 
-### Standalone (legacy)
+### skills.sh
+
+```bash
+npx skills add danpeg/bug-hunt
+```
+
+### Standalone (git clone)
 
 ```bash
 git clone https://github.com/danpeg/bug-hunt.git ~/.claude/skills/bug-hunt
